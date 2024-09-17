@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2592322-1DC7-9953-C386-987CFCE083F8" name="LOAN">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 15:06:30 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name=" loan_due_date " id="6CF21D0B-62FE-6E95-44EC-8164D288EEDB">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 15:06:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Loan Due Date]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loan_return_date" id="CFBB1E26-9AE5-2BD0-01D3-0861607086D8">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 15:07:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of book returned date]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" loan_return_time " id="5B1564E1-4189-7E97-DF87-E80CC3C1C0EE">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 15:08:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[book returned time]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

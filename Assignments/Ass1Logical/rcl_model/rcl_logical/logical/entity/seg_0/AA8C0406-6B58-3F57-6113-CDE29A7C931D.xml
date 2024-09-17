@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA8C0406-6B58-3F57-6113-CDE29A7C931D" name="AUTHOR">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 15:21:53 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="authr_code" id="46260940-5669-1C94-3BD3-563AC0C50C51">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 15:22:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Author code]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="authr_fname" id="5D70A6B5-80D7-0B7E-2169-8AF926F597F4">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 15:22:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Author First name]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" authr_lname" id="7F587610-2F92-412C-5ECF-A1008B2D402B">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 15:23:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Author Last Name]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49DA7721-B971-C1F8-8A8A-C8027389C1C9" name="AUTHOR PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 15:22:16 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46260940-5669-1C94-3BD3-563AC0C50C51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

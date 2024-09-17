@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A4F074F-112F-F093-238E-111A95D09811" name="LGA">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 13:26:56 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lga_code" id="B51CA8B6-2DC9-2359-56BC-01084CF32A52">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 13:45:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[LGA code]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lga_name" id="91581AA2-D002-9275-2DE4-FA9152CC4961">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 13:49:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[LGA name]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cont_nam" id="382F5898-4816-140F-9BB1-826F6E53C246">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 13:52:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[LGA Service Contact's name ]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phon_no" id="8F921D9D-AF46-4E70-7D8A-25F813FDEC86">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 13:53:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[ LGA's contact phone number]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="size" id="CF216F60-AD68-3CFB-260D-B8C844DC6DEA">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 13:54:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Size of the city (in hectares)]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D386535F-7BA9-D4F2-CE47-06B5AB0BC701" name="LGA PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 13:46:03 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B51CA8B6-2DC9-2359-56BC-01084CF32A52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

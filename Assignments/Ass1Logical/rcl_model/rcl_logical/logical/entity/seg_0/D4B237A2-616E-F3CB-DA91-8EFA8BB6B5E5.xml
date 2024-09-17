@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4B237A2-616E-F3CB-DA91-8EFA8BB6B5E5" name="BOOKCOPY">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 14:45:47 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="copy_id" id="E6EC36BB-5DBF-16FC-2AEF-B384E69A873C">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 14:46:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Book Copy ID]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bran_code" id="D6DA829B-D6EA-4314-F6A2-E34F7A67A85C">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 14:46:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch code foreign key]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bc_price" id="281BF0FA-8E10-679A-5B2D-068C97827172">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 14:55:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Book copy price]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bc_flag" id="CBAEE5EB-434B-27CD-5E96-09645EE53AFF">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 14:57:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Book copy flag]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7D281A4-8256-635B-5C6A-CCFD0C4A8E30" name="BOOKCOPY PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-15 14:46:40 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6EC36BB-5DBF-16FC-2AEF-B384E69A873C</attributeRef>
+<attributeRef>D6DA829B-D6EA-4314-F6A2-E34F7A67A85C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
