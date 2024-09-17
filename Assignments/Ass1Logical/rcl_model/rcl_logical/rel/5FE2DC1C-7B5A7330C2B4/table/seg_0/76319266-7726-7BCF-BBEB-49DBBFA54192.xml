@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF79FABB-8FE6-7094-A857-F353643355EF" name="PUBLISHER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76319266-7726-7BCF-BBEB-49DBBFA54192" name="PUBLISHER">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <generatorID>F62E0273-46DB-7FAE-4297-CEC5F3A9E688</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="catal_pub_id" id="ECA7EA59-E48B-D78D-84DC-AD422AB97FCF">
+<Column name="catal_pub_id" id="A4C05927-33EC-69DC-F7E6-A8215E88B696">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Publisher code]]></commentInRDBMS>
 <generatorID>5524BC0A-94B8-4145-158C-D032637A0AA5</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_pubname" id="DA17FFB9-DC6F-80D3-E164-5C028BAA24B0">
+<Column name="catal_pubname" id="AF725ED7-64AA-CAB9-A473-45EB3B6AE86C">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Publisher Name]]></commentInRDBMS>
 <generatorID>17F1104E-BDA3-7867-9105-FB98215E3437</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -36,16 +36,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="412B822B-C38C-0BA2-278C-F7D4057264AA" name="PUBLISHER_PK">
+<ind_PK_UK id="11EF76E5-A3EA-228F-9A7D-9270DE442531" name="PUBLISHER_PK">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <generatorID>75FE9091-D99A-1E20-30A0-E68C26EF72BE</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ECA7EA59-E48B-D78D-84DC-AD422AB97FCF"/>
+<colUsage columnID="A4C05927-33EC-69DC-F7E6-A8215E88B696"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

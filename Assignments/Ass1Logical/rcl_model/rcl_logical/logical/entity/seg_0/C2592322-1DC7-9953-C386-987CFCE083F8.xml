@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="loan_code" id="A62E0BFB-F007-97C7-F8DF-39D4674DAA2C">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:48:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[loan code used to as surrogate key]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="borrowed_dat_tym" id="6A1A8145-7466-66FF-D236-89D3B8C46486">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-17 12:09:33 UTC</createdTime>
@@ -26,6 +40,38 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="copy_id" id="002526F7-66DC-D634-4DE7-CBB107865021">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:59:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Book Copy ID]]></commentInRDBMS>
+<generatorID>5C9FAE04-1A88-4BFA-0D71-9F485377029F</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>E6EC36BB-5DBF-16FC-2AEF-B384E69A873C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bran_code" id="D43C341A-804D-E8FC-A8C5-493A61FDFF99">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 14:32:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
+<generatorID>5C9FAE04-1A88-4BFA-0D71-9F485377029F</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>9620BFC2-B0EE-052D-6EDD-43669F1EF487</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="due_bak" id="6CF21D0B-62FE-6E95-44EC-8164D288EEDB">
@@ -96,38 +142,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="copy_id" id="002526F7-66DC-D634-4DE7-CBB107865021">
-<createdBy>anbua</createdBy>
-<createdTime>2024-09-17 12:59:28 UTC</createdTime>
-<commentInRDBMS><![CDATA[Book Copy ID]]></commentInRDBMS>
-<generatorID>5C9FAE04-1A88-4BFA-0D71-9F485377029F</generatorID>
-<ownerDesignName>rcl_logical</ownerDesignName>
-<engineerTo>
-<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
-</engineerTo>
-<referedAttribute>E6EC36BB-5DBF-16FC-2AEF-B384E69A873C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="bran_code" id="D43C341A-804D-E8FC-A8C5-493A61FDFF99">
-<createdBy>anbua</createdBy>
-<createdTime>2024-09-17 14:32:52 UTC</createdTime>
-<commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
-<generatorID>5C9FAE04-1A88-4BFA-0D71-9F485377029F</generatorID>
-<ownerDesignName>rcl_logical</ownerDesignName>
-<engineerTo>
-<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
-</engineerTo>
-<referedAttribute>9620BFC2-B0EE-052D-6EDD-43669F1EF487</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="borrowr_no" id="8272AD28-9D0B-D05B-2A3F-0E375EEB724E">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-17 14:37:22 UTC</createdTime>
@@ -155,9 +169,22 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6A1A8145-7466-66FF-D236-89D3B8C46486</attributeRef>
+<attributeRef>A62E0BFB-F007-97C7-F8DF-39D4674DAA2C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="01ED392B-13E3-4979-30D8-9A6F24046655" name="loan_code_UQ">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:53:43 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<newElementsIDs>5C9FAE04-1A88-4BFA-0D71-9F485377029F,B5521E1E-5BD5-E088-E137-11E1A81A0FE1,6A1A8145-7466-66FF-D236-89D3B8C46486</newElementsIDs>
+<usedAttributes>
 <attributeRef>002526F7-66DC-D634-4DE7-CBB107865021</attributeRef>
 <attributeRef>D43C341A-804D-E8FC-A8C5-493A61FDFF99</attributeRef>
+<attributeRef>8272AD28-9D0B-D05B-2A3F-0E375EEB724E</attributeRef>
+<attributeRef>6A1A8145-7466-66FF-D236-89D3B8C46486</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

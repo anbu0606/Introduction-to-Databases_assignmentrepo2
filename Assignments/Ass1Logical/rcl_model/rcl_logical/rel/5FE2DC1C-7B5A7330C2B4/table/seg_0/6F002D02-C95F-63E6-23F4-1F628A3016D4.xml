@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CE8CBCA-64A6-AB6F-89F5-63E746315BA7" name="CATALOGUE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F002D02-C95F-63E6-23F4-1F628A3016D4" name="CATALOGUE">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <generatorID>B4F45C5C-2478-FD9B-2CC7-636A4FC11F9E</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="catal_call_no" id="B9355846-BA1E-E4F7-C018-B19EF89158EC">
+<Column name="catal_call_no" id="DD38CFDC-CB50-6B8F-AAE9-BD1A82A26323">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Dewey Decimal call number]]></commentInRDBMS>
 <generatorID>D0C312E1-7F6A-4A2B-A161-E10B356546D7</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>24,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_title" id="16912745-5765-E49E-362B-0D9031216875">
+<Column name="catal_title" id="B042817C-C3F0-D789-6FE0-38D61C1058D7">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Title of the book]]></commentInRDBMS>
 <generatorID>3999E9FC-B22B-3889-4FB9-1E48FA9111B4</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cat_desc" id="8E6A08C8-AD1B-69CC-317F-F33006D5F8D1">
+<Column name="cat_desc" id="D9284153-9FE8-3183-3647-14D571A085FE">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Description of the book]]></commentInRDBMS>
 <generatorID>DAE17B2C-0B7C-DD42-7E8D-907913B2720B</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -47,9 +47,9 @@
 <ownDataTypeParameters>12,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cat_classi" id="D4A56604-34AC-1B9C-75DA-5A6FC6542406">
+<Column name="cat_classi" id="3397C66A-D443-7410-7382-758785A7A0C6">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[classification of the book]]></commentInRDBMS>
 <generatorID>AB561412-99C0-BF65-EC34-B39D2C07DD28</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -60,9 +60,9 @@
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cat_page" id="3EE3FBD1-136C-AB30-10E0-C1E0E69BFBB7">
+<Column name="cat_page" id="F0F28F78-5867-AEE1-E8C3-0E6B3B6C1CA7">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Number of Pages]]></commentInRDBMS>
 <generatorID>7EE16E88-70DD-5235-DA80-1A0F1F8E716E</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -73,9 +73,9 @@
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cat_read_lvl" id="83638E84-96CB-E4A6-A2E3-F5731146AB94">
+<Column name="cat_read_lvl" id="B4B148DF-D614-F168-F373-6BB8C3CD89F8">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Reading level is recorded as an integer from 1 ( Easy ) to 30 ( Very Difficult )]]></commentInRDBMS>
 <generatorID>F3DB0DDE-F467-95B8-BBE7-5C41725A9048</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -86,9 +86,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_contents" id="048DE12E-33A3-7AD9-0347-05D633555AE1">
+<Column name="catal_contents" id="432C9BA5-8DA3-224D-CE3C-9AE48C9C91C2">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[contents of the book]]></commentInRDBMS>
 <generatorID>BE833BF4-833B-672D-0AFA-A33E0EE3638F</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -99,9 +99,9 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_date_pub" id="3CAF0FCC-E27E-D54E-765C-0A27FAE81A13">
+<Column name="catal_date_pub" id="AC937B2A-3F0B-4296-97D8-E487F0A488CD">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[publishing year]]></commentInRDBMS>
 <generatorID>7A1BFBB0-A131-17B7-1037-CCE05D4A02CC</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -111,9 +111,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_edition" id="D561FB90-070F-EE0A-2421-D8C6026EBAA7">
+<Column name="catal_edition" id="89FD9CC2-2B12-2F90-8438-42CEB824E9C2">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[edition data]]></commentInRDBMS>
 <generatorID>49641F31-F41E-55A0-32C3-B50C666C01B1</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -125,9 +125,9 @@
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_lang" id="01BC562D-D566-73AB-2E62-AF90387A605E">
+<Column name="catal_lang" id="D366B6CA-6A85-200D-1A50-FD6800D20079">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[langauge of the book cat]]></commentInRDBMS>
 <generatorID>B42ED314-E878-04ED-8F1F-5B15B5DDB2CE</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -138,9 +138,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_note" id="5C5CC3FC-797E-47E0-EA8C-4D6DA5DF18D5">
+<Column name="catal_note" id="433B25D9-C54A-6FA0-DD5C-6971E8F645BB">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[short note about the book]]></commentInRDBMS>
 <generatorID>5C159DA5-ECE3-F319-83FB-40F0C2F85211</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -152,9 +152,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_pub_id" id="01FEA1D2-032C-1410-A21D-590D17856E1A">
+<Column name="catal_pub_id" id="BB536671-E180-9C3D-3D42-975F9A98A34B">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Publisher code]]></commentInRDBMS>
 <generatorID>D2149CA3-C51D-FA64-E1EB-FF1E8DED487C</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -166,32 +166,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EA81A0DB-8977-1281-D908-CD79DBBBDF90" referredColumn="ECA7EA59-E48B-D78D-84DC-AD422AB97FCF"/>
+<colAssociation fkAssociation="B12CC321-9122-4C9F-79A2-0124C42E2C52" referredColumn="A4C05927-33EC-69DC-F7E6-A8215E88B696"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4D380BA7-21BE-FAA5-84C4-1BC020AEE1DC" name="CATALOGUE_PK">
+<ind_PK_UK id="9FD52EAE-815B-088F-445E-B34713994CDE" name="CATALOGUE_PK">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <generatorID>CB0BABA9-6013-58E9-D40B-4DBA1BD5C1A4</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B9355846-BA1E-E4F7-C018-B19EF89158EC"/>
+<colUsage columnID="DD38CFDC-CB50-6B8F-AAE9-BD1A82A26323"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="843507FE-B2B1-B6B7-2665-82BF7931DF13" name="catal_publisher_fk">
+<ind_PK_UK id="98DDE0BB-C62C-7A66-0001-EFD99802987F" name="catal_publisher_fk">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <generatorID>9B1A8419-0E7D-8D37-173C-9768724687B8</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="01FEA1D2-032C-1410-A21D-590D17856E1A"/>
+<colUsage columnID="BB536671-E180-9C3D-3D42-975F9A98A34B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

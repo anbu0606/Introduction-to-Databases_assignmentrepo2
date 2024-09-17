@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6C21FFB-2119-FDEB-1391-E309DB22CF78" name="AUTHOR">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D695F2CA-96AA-74DD-E786-F1A83C26FC29" name="AUTHOR">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <generatorID>AA8C0406-6B58-3F57-6113-CDE29A7C931D</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="author_id" id="E8DB11A3-B1C5-357E-F37C-A45D18DEEEC9">
+<Column name="author_id" id="7982F2CF-B02B-5DE4-4C6A-A649AEB345B3">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[author id]]></commentInRDBMS>
 <generatorID>88DA75EB-96FB-B213-65C3-550856BD5B93</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="author_fname" id="8F80F4D1-579C-6C1D-F27E-C4215DB24AF7">
+<Column name="author_fname" id="9AC022D2-CA85-644E-97A6-8A0ECBB7F602">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Author First name]]></commentInRDBMS>
 <generatorID>5D70A6B5-80D7-0B7E-2169-8AF926F597F4</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="author_lname" id="C1CFAA00-F936-6910-04E0-815550F51500">
+<Column name="author_lname" id="49FB8AF5-C67F-CDFD-8D69-A6D18E98E997">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Author Last Name]]></commentInRDBMS>
 <generatorID>7F587610-2F92-412C-5ECF-A1008B2D402B</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -47,9 +47,9 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_call_no" id="AD36C502-FF24-775B-7D76-531EB768165B">
+<Column name="catal_call_no" id="97CF6B96-1584-BCA4-2717-1D1AF386942D">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[Dewey Decimal call number]]></commentInRDBMS>
 <generatorID>1A7357B2-2E9F-A63A-3E4F-B06A7DD0A99B</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -61,32 +61,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3D0ACB39-1E64-46FF-AB2E-A4AB6890D230" referredColumn="B9355846-BA1E-E4F7-C018-B19EF89158EC"/>
+<colAssociation fkAssociation="A295EEDD-BBB1-FA7C-514B-3E7D1DCB28FC" referredColumn="DD38CFDC-CB50-6B8F-AAE9-BD1A82A26323"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1A6F71DD-CABA-5940-910F-9D83C7003FB4" name="AUTHOR_PK">
+<ind_PK_UK id="E8D93F41-BA78-DF6D-7EC4-D7986D3868C3" name="AUTHOR_PK">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <generatorID>49DA7721-B971-C1F8-8A8A-C8027389C1C9</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E8DB11A3-B1C5-357E-F37C-A45D18DEEEC9"/>
+<colUsage columnID="7982F2CF-B02B-5DE4-4C6A-A649AEB345B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="47211501-BFAF-088C-ABB8-86825D2FE6BF" name="caltal_author_fk">
+<ind_PK_UK id="02CEDF0C-B31B-88FF-8580-7BC485DAAF13" name="caltal_author_fk">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<createdTime>2024-09-17 15:58:08 UTC</createdTime>
 <generatorID>EA2222CA-86F2-4066-B9C6-690B99F264E0</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AD36C502-FF24-775B-7D76-531EB768165B"/>
+<colUsage columnID="97CF6B96-1584-BCA4-2717-1D1AF386942D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
