@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95AB5A00-1345-7CD0-3302-3543A128602D" name="LGA">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>1A4F074F-112F-F093-238E-111A95D09811</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lga_code" id="55B356F6-71DC-0628-1BCB-F442B759A545">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[LGA code]]></commentInRDBMS>
+<generatorID>B51CA8B6-2DC9-2359-56BC-01084CF32A52</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lga_name" id="509BBF41-6681-7884-ACB0-472269C7BBD2">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[LGA name]]></commentInRDBMS>
+<generatorID>91581AA2-D002-9275-2DE4-FA9152CC4961</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cont_nam" id="EAF2DA75-2D4F-8FE1-B12F-E3BE7BAC68C0">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[LGA Service Contact's name ]]></commentInRDBMS>
+<generatorID>382F5898-4816-140F-9BB1-826F6E53C246</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phon_no" id="09E6129D-A0BD-7B91-72F1-003942BE56D2">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[ LGA's contact phone number]]></commentInRDBMS>
+<generatorID>8F921D9D-AF46-4E70-7D8A-25F813FDEC86</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="size" id="0D070CC0-8D91-A47C-5D39-E93A147184C4">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Size of the city (in hectares)]]></commentInRDBMS>
+<generatorID>CF216F60-AD68-3CFB-260D-B8C844DC6DEA</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="423A2CD1-9083-2FDB-72FD-8A643F53B0F8" name="LGA_PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>D386535F-7BA9-D4F2-CE47-06B5AB0BC701</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B356F6-71DC-0628-1BCB-F442B759A545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

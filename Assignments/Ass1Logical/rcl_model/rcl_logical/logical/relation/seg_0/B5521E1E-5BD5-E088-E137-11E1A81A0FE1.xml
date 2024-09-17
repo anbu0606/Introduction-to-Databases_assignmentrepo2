@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="borrower_loan_fk" directorySegmentName="seg_0" id="B5521E1E-5BD5-E088-E137-11E1A81A0FE1">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 14:36:23 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<sourcePk>55D0ED9B-D360-33C5-AA73-311B2C2E91C2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>borrows</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB26BFD9-E10B-388C-7527-BFD7A927541D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C2592322-1DC7-9953-C386-987CFCE083F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

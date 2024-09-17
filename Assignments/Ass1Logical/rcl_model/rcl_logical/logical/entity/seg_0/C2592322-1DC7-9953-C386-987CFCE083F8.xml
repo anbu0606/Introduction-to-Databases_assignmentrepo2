@@ -15,7 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name=" loan_due_date " id="6CF21D0B-62FE-6E95-44EC-8164D288EEDB">
+<Attribute name="borrowed_dat_tym" id="6A1A8145-7466-66FF-D236-89D3B8C46486">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:09:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[date and time loan taken by borrower]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="due_bak" id="6CF21D0B-62FE-6E95-44EC-8164D288EEDB">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:06:43 UTC</createdTime>
 <commentInRDBMS><![CDATA[Loan Due Date]]></commentInRDBMS>
@@ -28,7 +41,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="loan_return_date" id="CFBB1E26-9AE5-2BD0-01D3-0861607086D8">
+<Attribute name="returned_dat_tym" id="CFBB1E26-9AE5-2BD0-01D3-0861607086D8">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:07:25 UTC</createdTime>
 <commentInRDBMS><![CDATA[Date of book returned date]]></commentInRDBMS>
@@ -54,5 +67,98 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="fine_amt" id="1A733DF6-615D-F54E-F9E8-E836AAD220D4">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:10:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[fine amount if book is not returned]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_fine_paid" id="125054AB-1825-67A1-12D6-2C34ED6D1CE9">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:12:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[date of fine paid]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="copy_id" id="002526F7-66DC-D634-4DE7-CBB107865021">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:59:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Book Copy ID]]></commentInRDBMS>
+<generatorID>5C9FAE04-1A88-4BFA-0D71-9F485377029F</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>E6EC36BB-5DBF-16FC-2AEF-B384E69A873C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bran_code" id="D43C341A-804D-E8FC-A8C5-493A61FDFF99">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 14:32:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
+<generatorID>5C9FAE04-1A88-4BFA-0D71-9F485377029F</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>9620BFC2-B0EE-052D-6EDD-43669F1EF487</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="borrowr_no" id="8272AD28-9D0B-D05B-2A3F-0E375EEB724E">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 14:37:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Borrower number]]></commentInRDBMS>
+<generatorID>B5521E1E-5BD5-E088-E137-11E1A81A0FE1</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>C7D01838-5578-2ED6-605A-AC214963205F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDC8BF0F-6551-EEAD-8C91-F7B666CC7B21" name="LOAN PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:07:29 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A1A8145-7466-66FF-D236-89D3B8C46486</attributeRef>
+<attributeRef>002526F7-66DC-D634-4DE7-CBB107865021</attributeRef>
+<attributeRef>D43C341A-804D-E8FC-A8C5-493A61FDFF99</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

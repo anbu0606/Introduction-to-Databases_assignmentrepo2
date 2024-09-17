@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="bor_no" id="C7D01838-5578-2ED6-605A-AC214963205F">
+<Attribute name="borrowr_no" id="C7D01838-5578-2ED6-605A-AC214963205F">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:02:59 UTC</createdTime>
 <commentInRDBMS><![CDATA[Borrower number]]></commentInRDBMS>
@@ -26,8 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bor_fname" id="E0DC8512-924D-BD95-A90E-3B219EE94034">
 <createdBy>anbua</createdBy>
@@ -39,9 +39,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>11</dataTypeSize>
-<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bor_lname" id="D1703266-FF81-BABD-C493-48F7D260F208">
 <createdBy>anbua</createdBy>
@@ -53,9 +53,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>11</dataTypeSize>
-<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bor_addr" id="93859D30-BB09-8AD8-AC77-7247A0C67AE2">
 <createdBy>anbua</createdBy>
@@ -70,6 +70,64 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="borrowr_class" id="F74EF3CC-345D-AF33-B81D-E8213EC3A625">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:02:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[age group of the borrower]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="borrowr_stat_permit" id="A7EA84A4-420B-CCF1-8159-D4CFF8D349A8">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:04:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[permitted status of the borrower]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="borrowr_stat_ban" id="DDD4B3B1-3CAA-FDF7-0DB7-D5365EF7F0A1">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:05:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[banned status of the borrower]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bran_code" id="7B563004-44E1-8D4F-C544-60675632AF3D">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:54:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
+<generatorID>925F4261-E704-CA2D-BD0F-4D3C1EF6ADAB</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>CB7FCCF7-903D-C451-63C1-58BE91B68B77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

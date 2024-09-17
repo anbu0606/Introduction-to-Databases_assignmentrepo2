@@ -26,8 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name=" bran_name" id="27A9B973-7706-D3C0-2924-D021D3D5DB02">
 <createdBy>anbua</createdBy>
@@ -53,9 +53,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name=" bran_add " id="1D4558B5-46CD-5593-8652-08A447C3025C">
 <createdBy>anbua</createdBy>
@@ -70,6 +70,38 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lga_code" id="0EC526CB-255B-55F2-3E3D-A3634DE9D2F3">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:48:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[LGA code]]></commentInRDBMS>
+<generatorID>8232F356-1BE2-AF4F-3AF8-4E6F768E5E2B</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>B51CA8B6-2DC9-2359-56BC-01084CF32A52</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="man_id" id="5F94DFAF-373B-D0C4-F750-CFCA5C5A5A8B">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Manager id]]></commentInRDBMS>
+<generatorID>D48A1BD2-1619-1C34-0FC9-518BC329E3CD</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>847DEEAF-9E41-8BC1-FBB4-D473D8FA82B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

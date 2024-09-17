@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF79FABB-8FE6-7094-A857-F353643355EF" name="PUBLISHER">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>F62E0273-46DB-7FAE-4297-CEC5F3A9E688</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="catal_pub_id" id="ECA7EA59-E48B-D78D-84DC-AD422AB97FCF">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Publisher code]]></commentInRDBMS>
+<generatorID>5524BC0A-94B8-4145-158C-D032637A0AA5</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="catal_pubname" id="DA17FFB9-DC6F-80D3-E164-5C028BAA24B0">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Publisher Name]]></commentInRDBMS>
+<generatorID>17F1104E-BDA3-7867-9105-FB98215E3437</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="412B822B-C38C-0BA2-278C-F7D4057264AA" name="PUBLISHER_PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>75FE9091-D99A-1E20-30A0-E68C26EF72BE</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECA7EA59-E48B-D78D-84DC-AD422AB97FCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

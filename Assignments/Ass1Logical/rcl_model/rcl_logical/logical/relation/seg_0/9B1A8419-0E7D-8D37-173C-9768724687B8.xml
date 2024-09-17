@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="catal_publisher_fk" directorySegmentName="seg_0" id="9B1A8419-0E7D-8D37-173C-9768724687B8">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 13:03:46 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<sourcePk>75FE9091-D99A-1E20-30A0-E68C26EF72BE</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>published by</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F62E0273-46DB-7FAE-4297-CEC5F3A9E688</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4F45C5C-2478-FD9B-2CC7-636A4FC11F9E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

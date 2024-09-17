@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="lga_branch_fk" directorySegmentName="seg_0" id="8232F356-1BE2-AF4F-3AF8-4E6F768E5E2B">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:48:52 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<sourcePk>D386535F-7BA9-D4F2-CE47-06B5AB0BC701</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1A4F074F-112F-F093-238E-111A95D09811</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB4BF7BC-E791-75F5-B60F-2BAA4CF91786</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="publ_code" id="5524BC0A-94B8-4145-158C-D032637A0AA5">
+<Attribute name="catal_pub_id" id="5524BC0A-94B8-4145-158C-D032637A0AA5">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:24:41 UTC</createdTime>
 <commentInRDBMS><![CDATA[Publisher code]]></commentInRDBMS>
@@ -26,10 +26,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="publ_name" id="17F1104E-BDA3-7867-9105-FB98215E3437">
+<Attribute name="catal_pubname" id="17F1104E-BDA3-7867-9105-FB98215E3437">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:25:19 UTC</createdTime>
 <commentInRDBMS><![CDATA[Publisher Name]]></commentInRDBMS>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B832068-A675-649E-4C9C-995AC98DC4ED" name="BOOKCOPY">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>D4B237A2-616E-F3CB-DA91-8EFA8BB6B5E5</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="copy_id" id="AF21979D-6ED6-D1D9-3DDD-122F0530AF9D">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Book Copy ID]]></commentInRDBMS>
+<generatorID>E6EC36BB-5DBF-16FC-2AEF-B384E69A873C</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bc_price" id="8EF028D6-1901-7DE1-807B-3DC01E53C377">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Book copy price]]></commentInRDBMS>
+<generatorID>281BF0FA-8E10-679A-5B2D-068C97827172</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bc_flag" id="5F7CF901-A108-D41D-ACCF-ED6E4E499B23">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Book copy flag]]></commentInRDBMS>
+<generatorID>CBAEE5EB-434B-27CD-5E96-09645EE53AFF</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isbn" id="2BC049D9-8480-8193-73E9-0627B8514CA9">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Each book has single ISBN]]></commentInRDBMS>
+<generatorID>B68F573D-5174-9983-97CB-264EF6BD1E8E</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B5018D4-0264-1912-F07B-F05D62B4957D" referredColumn="E71655A4-3C0A-81EE-E79B-9832C5A0441D"/>
+</associations>
+</Column>
+<Column name="bran_code" id="8AD387F6-3843-B82C-9011-64729FE8540C">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
+<generatorID>9620BFC2-B0EE-052D-6EDD-43669F1EF487</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95BFC9E4-51E8-A0F1-152F-F0A2A49A739B" referredColumn="F2AB4566-1022-24C7-9F9A-9C1EBBC57BDC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="410BD851-9679-F4EF-F59A-B550020FAE6B" name="BOOKCOPY_PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>D7D281A4-8256-635B-5C6A-CCFD0C4A8E30</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF21979D-6ED6-D1D9-3DDD-122F0530AF9D"/>
+<colUsage columnID="8AD387F6-3843-B82C-9011-64729FE8540C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D31499C-5461-1AC3-4EB6-00C296C187DF" name="branch_bookcopy_fk">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>E5D6BEFA-CB08-9F32-8C7B-1B87CDE4DBC1</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AD387F6-3843-B82C-9011-64729FE8540C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5EFE986-A752-8536-59C2-9F338F27237F" name="isbn_bookcpy_fk">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>E740D9BA-600A-E9A4-0F05-FE91B7CD968D</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BC049D9-8480-8193-73E9-0627B8514CA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

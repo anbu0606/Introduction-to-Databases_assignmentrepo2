@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="authr_code" id="46260940-5669-1C94-3BD3-563AC0C50C51">
+<Attribute name="author_id" id="88DA75EB-96FB-B213-65C3-550856BD5B93">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-15 15:22:05 UTC</createdTime>
-<commentInRDBMS><![CDATA[Author code]]></commentInRDBMS>
+<createdTime>2024-09-17 15:08:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[author id]]></commentInRDBMS>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <engineerTo>
 <item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
@@ -26,10 +26,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="authr_fname" id="5D70A6B5-80D7-0B7E-2169-8AF926F597F4">
+<Attribute name="author_fname" id="5D70A6B5-80D7-0B7E-2169-8AF926F597F4">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:22:38 UTC</createdTime>
 <commentInRDBMS><![CDATA[Author First name]]></commentInRDBMS>
@@ -43,7 +43,7 @@
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name=" authr_lname" id="7F587610-2F92-412C-5ECF-A1008B2D402B">
+<Attribute name=" author_lname" id="7F587610-2F92-412C-5ECF-A1008B2D402B">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:23:42 UTC</createdTime>
 <commentInRDBMS><![CDATA[Author Last Name]]></commentInRDBMS>
@@ -57,6 +57,22 @@
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="catal_call_no" id="1A7357B2-2E9F-A63A-3E4F-B06A7DD0A99B">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:04:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dewey Decimal call number]]></commentInRDBMS>
+<generatorID>EA2222CA-86F2-4066-B9C6-690B99F264E0</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>D0C312E1-7F6A-4A2B-A161-E10B356546D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="49DA7721-B971-C1F8-8A8A-C8027389C1C9" name="AUTHOR PK">
@@ -68,7 +84,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>46260940-5669-1C94-3BD3-563AC0C50C51</attributeRef>
+<attributeRef>88DA75EB-96FB-B213-65C3-550856BD5B93</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

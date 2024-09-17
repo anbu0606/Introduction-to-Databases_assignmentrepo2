@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0421A89D-5DFC-3894-8AB5-42FD83736097" name="BRANCH">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>BB4BF7BC-E791-75F5-B60F-2BAA4CF91786</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bran_code" id="F2AB4566-1022-24C7-9F9A-9C1EBBC57BDC">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
+<generatorID>CB7FCCF7-903D-C451-63C1-58BE91B68B77</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bran_name" id="2D3EACB0-31B8-B000-3CE8-ABA8C39FC1E9">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Name]]></commentInRDBMS>
+<generatorID>27A9B973-7706-D3C0-2924-D021D3D5DB02</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bran_phone" id="0AB5288C-1C26-06A3-ADCA-16C5544D6619">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Phone]]></commentInRDBMS>
+<generatorID>E7E483FA-66C7-BE9E-40A0-7B3750C9D1F0</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bran_add" id="14BF2327-0A5C-5404-7849-B86F876C8FD3">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Address]]></commentInRDBMS>
+<generatorID>1D4558B5-46CD-5593-8652-08A447C3025C</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lga_code" id="CD1F4B14-0FE8-4A55-B029-87467E5F24BE">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[LGA code]]></commentInRDBMS>
+<generatorID>0EC526CB-255B-55F2-3E3D-A3634DE9D2F3</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFD2D7F4-13E6-55A0-1CE6-3BE8774D9C99" referredColumn="55B356F6-71DC-0628-1BCB-F442B759A545"/>
+</associations>
+</Column>
+<Column name="man_id" id="203F51CA-FCC9-F202-78D7-EB0EA67ED054">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Manager id]]></commentInRDBMS>
+<generatorID>5F94DFAF-373B-D0C4-F750-CFCA5C5A5A8B</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D29839E-A72B-B5DA-C917-043A9D122FCE" referredColumn="ED62305D-CC54-624A-26D1-205E7D473B31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F942693-3100-C0C7-57F1-39DF41564683" name="BRANCH_PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>AC43E9D6-1796-CA0C-4AA3-26DFAC2455F2</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2AB4566-1022-24C7-9F9A-9C1EBBC57BDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BE911E8-865C-4363-1B5C-BE5024505644" name="lga_branch_fk">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>8232F356-1BE2-AF4F-3AF8-4E6F768E5E2B</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD1F4B14-0FE8-4A55-B029-87467E5F24BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AD073BE-6A6F-347B-FA51-A48CDFA1F3AB" name="manager_branch_fk">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>D48A1BD2-1619-1C34-0FC9-518BC329E3CD</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="203F51CA-FCC9-F202-78D7-EB0EA67ED054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

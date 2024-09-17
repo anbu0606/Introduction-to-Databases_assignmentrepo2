@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="manager_branch_fkv2" directorySegmentName="seg_0" id="078888E9-9951-86C3-9F35-F1A28BB86430">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:51:26 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<sourcePk>50A0F98E-3312-BBB5-5E69-BD661E4143C0</sourcePk>
+<targetPk>AC43E9D6-1796-CA0C-4AA3-26DFAC2455F2</targetPk>
+<identifying>false</identifying>
+<nameOnSource> </nameOnSource>
+<nameOnTarget> home office for</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B8DDE25-4003-67D3-88A9-DB3AC458D53E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BB4BF7BC-E791-75F5-B60F-2BAA4CF91786</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88ED05D5-3559-9B78-5B46-2BFDE95AE1C8" name="MANAGER">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>4B8DDE25-4003-67D3-88A9-DB3AC458D53E</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="man_id" id="ED62305D-CC54-624A-26D1-205E7D473B31">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Manager id]]></commentInRDBMS>
+<generatorID>847DEEAF-9E41-8BC1-FBB4-D473D8FA82B3</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="man_fname" id="EF612EF3-E3AE-0594-6B20-DDB95E095FA8">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Manager First name]]></commentInRDBMS>
+<generatorID>C665F82D-A6E1-9CA1-2EB6-65A3D8F5B79F</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="man_lname" id="5C06BD7C-2F6D-9EC5-DF71-37EF3C2205B3">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Manager Last name]]></commentInRDBMS>
+<generatorID>A2851AC9-F8AD-0501-EA6A-8AE4F8D439A8</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="man_phone" id="00752E43-3709-7B3B-E540-257F0F525B89">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Manager Phone Number]]></commentInRDBMS>
+<generatorID>1AEAC53A-00CD-A48C-118B-6406090202BE</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bran_code" id="B0C0943B-F16A-2CB8-B6E3-9B3C06EBFE88">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
+<generatorID>23B48CED-7637-B56B-ECE8-7355469E8B3F</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="055ACDFE-3555-5745-FB90-80DD1C2DD77C" referredColumn="F2AB4566-1022-24C7-9F9A-9C1EBBC57BDC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D19B5C6-950E-DC40-1E22-69879A757927" name="MANAGER_PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>50A0F98E-3312-BBB5-5E69-BD661E4143C0</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED62305D-CC54-624A-26D1-205E7D473B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B22E1CD-12AA-D220-71E8-623EA75F9BAA" name="MANAGER__IDX">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>078888E9-9951-86C3-9F35-F1A28BB86430</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B0C0943B-F16A-2CB8-B6E3-9B3C06EBFE88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54DE80BF-B17B-04BF-43D8-5A08E08C2082" name="manager_branch_fkv2">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 15:12:53 UTC</createdTime>
+<generatorID>078888E9-9951-86C3-9F35-F1A28BB86430</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0C0943B-F16A-2CB8-B6E3-9B3C06EBFE88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

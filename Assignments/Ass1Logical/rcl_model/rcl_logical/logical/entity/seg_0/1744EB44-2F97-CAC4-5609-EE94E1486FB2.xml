@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1744EB44-2F97-CAC4-5609-EE94E1486FB2" name="ISBN">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1744EB44-2F97-CAC4-5609-EE94E1486FB2" name="IDENTIFIER">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:19:01 UTC</createdTime>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ISBN" id="F8E29840-62FD-F3E2-4C97-00BFE3444D23">
+<Attribute name="isbn" id="F8E29840-62FD-F3E2-4C97-00BFE3444D23">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:19:11 UTC</createdTime>
 <commentInRDBMS><![CDATA[Each book has single ISBN]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypePrecision>14</dataTypePrecision>
 <ownDataTypeParameters>,14,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="book_type" id="712B7D53-18BE-48C3-B1B8-23A9E4C28CF5">
+<Attribute name="is_type" id="712B7D53-18BE-48C3-B1B8-23A9E4C28CF5">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:20:56 UTC</createdTime>
 <commentInRDBMS><![CDATA[Type of the book cover]]></commentInRDBMS>
@@ -43,5 +43,35 @@
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="catal_call_no" id="421B3030-14DB-C9ED-4641-343CD7E4B8F9">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 13:03:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dewey Decimal call number]]></commentInRDBMS>
+<generatorID>3BD51402-0DC4-3659-7BEE-E9F0036920C1</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>D0C312E1-7F6A-4A2B-A161-E10B356546D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD615DA8-CB53-721D-CD70-C8BA1EA54157" name="IDENTIFIER PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 12:01:17 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8E29840-62FD-F3E2-4C97-00BFE3444D23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

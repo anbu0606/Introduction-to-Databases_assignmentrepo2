@@ -26,22 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="bran_code" id="D6DA829B-D6EA-4314-F6A2-E34F7A67A85C">
-<createdBy>anbua</createdBy>
-<createdTime>2024-09-15 14:46:54 UTC</createdTime>
-<commentInRDBMS><![CDATA[Branch code foreign key]]></commentInRDBMS>
-<ownerDesignName>rcl_logical</ownerDesignName>
-<engineerTo>
-<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bc_price" id="281BF0FA-8E10-679A-5B2D-068C97827172">
 <createdBy>anbua</createdBy>
@@ -55,7 +41,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bc_flag" id="CBAEE5EB-434B-27CD-5E96-09645EE53AFF">
 <createdBy>anbua</createdBy>
@@ -71,6 +58,38 @@
 <dataTypeSize>7</dataTypeSize>
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="isbn" id="B68F573D-5174-9983-97CB-264EF6BD1E8E">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 13:01:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Each book has single ISBN]]></commentInRDBMS>
+<generatorID>E740D9BA-600A-E9A4-0F05-FE91B7CD968D</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>F8E29840-62FD-F3E2-4C97-00BFE3444D23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bran_code" id="9620BFC2-B0EE-052D-6EDD-43669F1EF487">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-17 14:32:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
+<generatorID>E5D6BEFA-CB08-9F32-8C7B-1B87CDE4DBC1</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>CB7FCCF7-903D-C451-63C1-58BE91B68B77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D7D281A4-8256-635B-5C6A-CCFD0C4A8E30" name="BOOKCOPY PK">
@@ -83,7 +102,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E6EC36BB-5DBF-16FC-2AEF-B384E69A873C</attributeRef>
-<attributeRef>D6DA829B-D6EA-4314-F6A2-E34F7A67A85C</attributeRef>
+<attributeRef>9620BFC2-B0EE-052D-6EDD-43669F1EF487</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
