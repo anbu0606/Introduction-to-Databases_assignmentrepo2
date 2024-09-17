@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="call_no" id="D0C312E1-7F6A-4A2B-A161-E10B356546D7">
+<Attribute name="catal_call_no" id="D0C312E1-7F6A-4A2B-A161-E10B356546D7">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:09:53 UTC</createdTime>
 <commentInRDBMS><![CDATA[Dewey Decimal call number]]></commentInRDBMS>
@@ -25,14 +25,14 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cat_title" id="3999E9FC-B22B-3889-4FB9-1E48FA9111B4">
+<Attribute name="catal_title" id="3999E9FC-B22B-3889-4FB9-1E48FA9111B4">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 15:10:57 UTC</createdTime>
-<commentInRDBMS><![CDATA[Title]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Title of the book]]></commentInRDBMS>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <engineerTo>
 <item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
@@ -40,8 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>11</dataTypeSize>
-<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cat_desc" id="DAE17B2C-0B7C-DD42-7E8D-907913B2720B">
 <createdBy>anbua</createdBy>
