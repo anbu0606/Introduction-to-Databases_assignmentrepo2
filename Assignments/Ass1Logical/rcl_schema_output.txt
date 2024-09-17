@@ -1,3 +1,8 @@
+SQL> --student id: 35215704
+SQL> --student id : 
+SQL> --Group Number: G092
+SQL> --Group Members: Anbu Chandran Karunanidhi
+SQL> --Group Members: Zixiang Zhao
 SQL> DROP TABLE author CASCADE CONSTRAINTS;
 
 TABLE dropped.
@@ -348,21 +353,34 @@ SQL> ALTER TABLE lga ADD CONSTRAINT lga_pk PRIMARY KEY ( lga_code );
 TABLE altered.
 
 SQL> CREATE TABLE loan (
-  2      borrowed_dat_tym DATE NOT NULL,
-  3      due_bak          DATE NOT NULL,
-  4      returned_dat_tym DATE NOT NULL,
-  5      loan_return_time DATE NOT NULL,
-  6      fine_amt         NUMBER(5),
-  7      dat_fine_paid    DATE,
-  8      copy_id          NUMBER(5) NOT NULL,
-  9      bran_code        NUMBER(3) NOT NULL,
-  10      borrowr_no       NUMBER(5) NOT NULL
-  11  );
+  2      loan_code        NUMBER(7) NOT NULL,
+  3      borrowed_dat_tym DATE NOT NULL,
+  4      copy_id          NUMBER(5) NOT NULL,
+  5      bran_code        NUMBER(3) NOT NULL,
+  6      due_bak          DATE NOT NULL,
+  7      returned_dat_tym DATE NOT NULL,
+  8      loan_return_time DATE NOT NULL,
+  9      fine_amt         NUMBER(5),
+  10      dat_fine_paid    DATE,
+  11      borrowr_no       NUMBER(5) NOT NULL
+  12  );
 
 TABLE created.
 
+SQL> COMMENT ON COLUMN loan.loan_code IS
+  2      'loan code used to as surrogate key';
+Comment created.
+
 SQL> COMMENT ON COLUMN loan.borrowed_dat_tym IS
   2      'date and time loan taken by borrower';
+Comment created.
+
+SQL> COMMENT ON COLUMN loan.copy_id IS
+  2      'Book Copy ID';
+Comment created.
+
+SQL> COMMENT ON COLUMN loan.bran_code IS
+  2      'Branch Code';
 Comment created.
 
 SQL> COMMENT ON COLUMN loan.due_bak IS
@@ -385,22 +403,19 @@ SQL> COMMENT ON COLUMN loan.dat_fine_paid IS
   2      'date of fine paid';
 Comment created.
 
-SQL> COMMENT ON COLUMN loan.copy_id IS
-  2      'Book Copy ID';
-Comment created.
-
-SQL> COMMENT ON COLUMN loan.bran_code IS
-  2      'Branch Code';
-Comment created.
-
 SQL> COMMENT ON COLUMN loan.borrowr_no IS
   2      'Borrower number';
 Comment created.
 
+SQL> ALTER TABLE loan ADD CONSTRAINT loan_pk PRIMARY KEY ( loan_code );
+
+TABLE altered.
+
 SQL> ALTER TABLE loan
-  2      ADD CONSTRAINT loan_pk PRIMARY KEY ( borrowed_dat_tym,
-  3                                           copy_id,
-  4                                           bran_code );
+  2      ADD CONSTRAINT loan_code_uq UNIQUE ( copy_id,
+  3                                           bran_code,
+  4                                           borrowr_no,
+  5                                           borrowed_dat_tym );
 
 TABLE altered.
 
@@ -572,7 +587,7 @@ SQL> -- Oracle SQL Developer Data Modeler Summary Report:
 SQL> -- 
 SQL> -- CREATE TABLE                            12
 SQL> -- CREATE INDEX                             1
-SQL> -- ALTER TABLE                             24
+SQL> -- ALTER TABLE                             25
 SQL> -- CREATE VIEW                              0
 SQL> -- ALTER VIEW                               0
 SQL> -- CREATE PACKAGE                           0
