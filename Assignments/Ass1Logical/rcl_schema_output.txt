@@ -1,8 +1,8 @@
 SQL> --student id: 35215704
-SQL> --student id : 
-SQL> --Group Number: G092
-SQL> --Group Members: Anbu Chandran Karunanidhi
-SQL> --Group Members: Zixiang Zhao
+SQL> --student name: Anbu Chandran Karunanidhi
+SQL> --student id: 34810498
+SQL> --student name: Zixiang Zhao
+SQL> --GROUP Number: G092 
 SQL> DROP TABLE author CASCADE CONSTRAINTS;
 
 TABLE dropped.
@@ -48,6 +48,10 @@ SQL> DROP TABLE publisher CASCADE CONSTRAINTS;
 TABLE dropped.
 
 SQL> DROP TABLE subject CASCADE CONSTRAINTS;
+
+TABLE dropped.
+
+SQL> DROP TABLE subject_details CASCADE CONSTRAINTS;
 
 TABLE dropped.
 
@@ -319,11 +323,11 @@ SQL> ALTER TABLE identifier ADD CONSTRAINT identifier_pk PRIMARY KEY ( isbn );
 TABLE altered.
 
 SQL> CREATE TABLE lga (
-  2      lga_code NUMBER(7) NOT NULL,
-  3      lga_name VARCHAR2(7) NOT NULL,
-  4      cont_nam VARCHAR2(7) NOT NULL,
-  5      phon_no  CHAR(10) NOT NULL,
-  6      "size"   NUMBER(7) NOT NULL
+  2      lga_code     NUMBER(7) NOT NULL,
+  3      lga_name     VARCHAR2(7) NOT NULL,
+  4      lga_cont_nam VARCHAR2(7) NOT NULL,
+  5      lga_phon_no  CHAR(10) NOT NULL,
+  6      lga_size     NUMBER(7) NOT NULL
   7  );
 
 TABLE created.
@@ -336,15 +340,15 @@ SQL> COMMENT ON COLUMN lga.lga_name IS
   2      'LGA name';
 Comment created.
 
-SQL> COMMENT ON COLUMN lga.cont_nam IS
+SQL> COMMENT ON COLUMN lga.lga_cont_nam IS
   2      'LGA Service Contact''s name ';
 Comment created.
 
-SQL> COMMENT ON COLUMN lga.phon_no IS
+SQL> COMMENT ON COLUMN lga.lga_phon_no IS
   2      ' LGA''s contact phone number';
 Comment created.
 
-SQL> COMMENT ON COLUMN lga."size" IS
+SQL> COMMENT ON COLUMN lga.lga_size IS
   2      'Size of the city (in hectares)';
 Comment created.
 
@@ -480,26 +484,36 @@ SQL> ALTER TABLE publisher ADD CONSTRAINT publisher_pk PRIMARY KEY ( catal_pub_i
 TABLE altered.
 
 SQL> CREATE TABLE subject (
-  2      sub_id        NUMBER(5) NOT NULL,
-  3      sub_desc      CHAR(20) NOT NULL,
-  4      catal_call_no VARCHAR2(24) NOT NULL
-  5  );
+  2      sub_desc CHAR(20) NOT NULL,
+  3      sub_id   NUMBER(5) NOT NULL
+  4  );
 
 TABLE created.
-
-SQL> COMMENT ON COLUMN subject.sub_id IS
-  2      'Subject id';
-Comment created.
 
 SQL> COMMENT ON COLUMN subject.sub_desc IS
   2      'subject description';
 Comment created.
 
-SQL> COMMENT ON COLUMN subject.catal_call_no IS
+SQL> COMMENT ON COLUMN subject.sub_id IS
+  2      'subject id';
+Comment created.
+
+SQL> CREATE TABLE subject_details (
+  2      catal_call_no VARCHAR2(24) NOT NULL,
+  3      sub_id        NUMBER(5) NOT NULL
+  4  );
+
+TABLE created.
+
+SQL> COMMENT ON COLUMN subject_details.catal_call_no IS
   2      'Dewey Decimal call number';
 Comment created.
 
-SQL> ALTER TABLE subject ADD CONSTRAINT subject_pk PRIMARY KEY ( sub_id );
+SQL> COMMENT ON COLUMN subject_details.sub_id IS
+  2      'subject id';
+Comment created.
+
+SQL> ALTER TABLE subject_details ADD CONSTRAINT subject_details_pk PRIMARY KEY ( sub_id );
 
 TABLE altered.
 
@@ -547,8 +561,8 @@ SQL> ALTER TABLE catalogue
 
 TABLE altered.
 
-SQL> ALTER TABLE subject
-  2      ADD CONSTRAINT catal_subject_fk FOREIGN KEY ( catal_call_no )
+SQL> ALTER TABLE subject_details
+  2      ADD CONSTRAINT catal_subjectdetails_fk FOREIGN KEY ( catal_call_no )
   3          REFERENCES catalogue ( catal_call_no );
 
 TABLE altered.
@@ -583,11 +597,17 @@ SQL> ALTER TABLE manager
 
 TABLE altered.
 
+SQL> ALTER TABLE subject
+  2      ADD CONSTRAINT subdetails_subject_fk FOREIGN KEY ( sub_id )
+  3          REFERENCES subject_details ( sub_id );
+
+TABLE altered.
+
 SQL> -- Oracle SQL Developer Data Modeler Summary Report: 
 SQL> -- 
-SQL> -- CREATE TABLE                            12
+SQL> -- CREATE TABLE                            13
 SQL> -- CREATE INDEX                             1
-SQL> -- ALTER TABLE                             25
+SQL> -- ALTER TABLE                             26
 SQL> -- CREATE VIEW                              0
 SQL> -- ALTER VIEW                               0
 SQL> -- CREATE PACKAGE                           0
