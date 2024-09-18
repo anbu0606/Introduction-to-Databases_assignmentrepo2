@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AC70A11-4B57-6959-6A8A-9281F1BDD8FB" name="LOAN">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94E10B56-D196-C668-E4B3-0D915A2DA476" name="LOAN">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>C2592322-1DC7-9953-C386-987CFCE083F8</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="loan_code" id="B7882EBE-0FDD-CDDA-CF45-D8A1E1A7DAA6">
+<Column name="loan_code" id="AAC964DB-B01E-631F-F0B2-35D4F154FED3">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[loan code used to as surrogate key]]></commentInRDBMS>
 <generatorID>A62E0BFB-F007-97C7-F8DF-39D4674DAA2C</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="borrowed_dat_tym" id="AFEC4540-E5EB-6A5D-8D91-EFAABC743435">
+<Column name="borrowed_dat_tym" id="D9600450-5649-374A-A1E6-12AF012F4E81">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[date and time loan taken by borrower]]></commentInRDBMS>
 <generatorID>6A1A8145-7466-66FF-D236-89D3B8C46486</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -33,9 +33,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="copy_id" id="CC210EAD-685B-D8FD-BB49-61CDF4C26500">
+<Column name="copy_id" id="A6AB6D64-4351-CBC7-031D-43E51232CB5C">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Book Copy ID]]></commentInRDBMS>
 <generatorID>002526F7-66DC-D634-4DE7-CBB107865021</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -47,12 +47,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8564AED0-4002-F26B-F9FE-4B5EC919678F" referredColumn="C48F06AC-9850-8357-CA0F-FE221BE83F22"/>
+<colAssociation fkAssociation="15D102AB-394E-2691-033A-E2F23F8EBB93" referredColumn="89A08AE8-C917-85A6-DC4E-7F71DE424DDD"/>
 </associations>
 </Column>
-<Column name="bran_code" id="027BFF8F-92F2-3CB1-295D-777E0562981B">
+<Column name="bran_code" id="827EAF36-CED9-64E3-3BB0-F4F39339FB24">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
 <generatorID>D43C341A-804D-E8FC-A8C5-493A61FDFF99</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -64,12 +64,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8564AED0-4002-F26B-F9FE-4B5EC919678F" referredColumn="15599235-1D6F-2F4C-855E-CDE302317516"/>
+<colAssociation fkAssociation="15D102AB-394E-2691-033A-E2F23F8EBB93" referredColumn="2D10A796-3B98-2E67-DD19-5FFBAC55238B"/>
 </associations>
 </Column>
-<Column name="due_bak" id="EBD24F3C-CBE4-1ADB-80A4-13094E0F037B">
+<Column name="due_bak" id="3264417A-4177-5335-D3BF-CF471C3D91D1">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Loan Due Date]]></commentInRDBMS>
 <generatorID>6CF21D0B-62FE-6E95-44EC-8164D288EEDB</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -79,9 +79,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="returned_dat_tym" id="6B35203D-797E-FBC2-BF83-934C79F6C3AF">
+<Column name="returned_dat_tym" id="45988512-BDE0-1265-4AF4-A86FCC1283D4">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Date of book returned date]]></commentInRDBMS>
 <generatorID>CFBB1E26-9AE5-2BD0-01D3-0861607086D8</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -91,9 +91,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="loan_return_time" id="4B968FE4-1825-23E0-43E2-473AEF1E48DE">
+<Column name="loan_return_time" id="C1966248-9900-FD18-21FA-2405F5D7D789">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[book returned time]]></commentInRDBMS>
 <generatorID>5B1564E1-4189-7E97-DF87-E80CC3C1C0EE</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -103,9 +103,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fine_amt" id="62ABBC5F-300F-42B6-40E3-834EB8681E5C">
+<Column name="fine_amt" id="4E934055-6CB7-2BDF-5A83-A377E399626B">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[fine amount if book is not returned]]></commentInRDBMS>
 <generatorID>1A733DF6-615D-F54E-F9E8-E836AAD220D4</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -117,9 +117,9 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dat_fine_paid" id="AB1D33C1-A950-08A2-DC01-D9A3EC0F8C8C">
+<Column name="dat_fine_paid" id="7CE78D5A-F591-D9CD-24C3-FB7AEDB724C9">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[date of fine paid]]></commentInRDBMS>
 <generatorID>125054AB-1825-67A1-12D6-2C34ED6D1CE9</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -130,9 +130,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="borrowr_no" id="CEB1F8F0-5D00-767A-5534-0C04B41DEA5A">
+<Column name="borrowr_no" id="E7C7928D-6DD3-E4C6-F564-412944ED4164">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Borrower number]]></commentInRDBMS>
 <generatorID>8272AD28-9D0B-D05B-2A3F-0E375EEB724E</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -144,58 +144,58 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4F75E387-F3DB-8442-0898-E49B94E92958" referredColumn="BF57175D-017B-18C6-17A8-D86AB3404C06"/>
+<colAssociation fkAssociation="8EB6329D-E680-3E1E-B4A8-55C9741C567A" referredColumn="F20B4289-0090-2A25-C049-05F77C050A24"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="911BDE99-3D38-EE62-1A53-DD4481A0B00B" name="LOAN_PK">
+<ind_PK_UK id="55AD398D-822B-2D85-CB49-94C516DBD365" name="LOAN_PK">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>DDC8BF0F-6551-EEAD-8C91-F7B666CC7B21</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B7882EBE-0FDD-CDDA-CF45-D8A1E1A7DAA6"/>
+<colUsage columnID="AAC964DB-B01E-631F-F0B2-35D4F154FED3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="56628A07-15D3-0AED-BFA2-8C2445D9A53F" name="loan_code_UQ">
+<ind_PK_UK id="A14E087C-090A-01EE-571A-01F1D4820E9B" name="loan_code_UQ">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>01ED392B-13E3-4979-30D8-9A6F24046655</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CC210EAD-685B-D8FD-BB49-61CDF4C26500"/>
-<colUsage columnID="027BFF8F-92F2-3CB1-295D-777E0562981B"/>
-<colUsage columnID="CEB1F8F0-5D00-767A-5534-0C04B41DEA5A"/>
-<colUsage columnID="AFEC4540-E5EB-6A5D-8D91-EFAABC743435"/>
+<colUsage columnID="A6AB6D64-4351-CBC7-031D-43E51232CB5C"/>
+<colUsage columnID="827EAF36-CED9-64E3-3BB0-F4F39339FB24"/>
+<colUsage columnID="E7C7928D-6DD3-E4C6-F564-412944ED4164"/>
+<colUsage columnID="D9600450-5649-374A-A1E6-12AF012F4E81"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E11A0A6C-93DE-463C-9A9E-C2C50388CF4B" name="bookcpy_loan_fk">
+<ind_PK_UK id="A7651D6C-22CF-5256-A638-17169A676D7D" name="bookcpy_loan_fk">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>5C9FAE04-1A88-4BFA-0D71-9F485377029F</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CC210EAD-685B-D8FD-BB49-61CDF4C26500"/>
-<colUsage columnID="027BFF8F-92F2-3CB1-295D-777E0562981B"/>
+<colUsage columnID="A6AB6D64-4351-CBC7-031D-43E51232CB5C"/>
+<colUsage columnID="827EAF36-CED9-64E3-3BB0-F4F39339FB24"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CBCA4BDA-196D-CA29-FF2B-F2AC0AF42908" name="borrower_loan_fk">
+<ind_PK_UK id="05F2B2C3-DA6B-1DAA-E536-5F2EC3CCFB0A" name="borrower_loan_fk">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>B5521E1E-5BD5-E088-E137-11E1A81A0FE1</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CEB1F8F0-5D00-767A-5534-0C04B41DEA5A"/>
+<colUsage columnID="E7C7928D-6DD3-E4C6-F564-412944ED4164"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

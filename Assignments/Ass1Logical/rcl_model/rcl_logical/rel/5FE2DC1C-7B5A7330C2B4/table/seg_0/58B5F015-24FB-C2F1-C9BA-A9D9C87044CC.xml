@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58B5F015-24FB-C2F1-C9BA-A9D9C87044CC" name="SUBJECT">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
+<generatorID>8D3ABF71-D5FB-A772-1BB1-A9C993CA7029</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sub_desc" id="D6CFB0B8-46C1-B774-48C5-38D34112EEC4">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[subject description]]></commentInRDBMS>
+<generatorID>7B1F4308-F250-68D6-CB7A-DAA1153FBBE1</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sub_id" id="BA8F7B2B-5490-6F24-89AD-412F26A55D5F">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[subject id]]></commentInRDBMS>
+<generatorID>ACF38835-6F36-7643-BE23-2E8B64E2E7D9</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66A57579-D479-D14B-C9B4-F13D455A9823" referredColumn="99BEA5D2-7B80-CF86-6A1B-69CA535E2FCA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1A2E99A-37EB-CBF1-9A96-9AE0852B55B1" name="SUBJECT_PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
+<generatorID>55DE05F3-8CE4-37F0-116F-2629F2DD0502</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="56E7D7CB-435E-E4E8-1B02-E572734888C1" name="subdetails_subject_fk">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
+<generatorID>72AE76AA-F89A-731E-E8C4-1343D2D5EBD0</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA8F7B2B-5490-6F24-89AD-412F26A55D5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

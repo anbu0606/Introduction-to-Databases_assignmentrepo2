@@ -43,7 +43,7 @@
 <dataTypeSize>7</dataTypeSize>
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cont_nam" id="382F5898-4816-140F-9BB1-826F6E53C246">
+<Attribute name="lga_cont_nam" id="382F5898-4816-140F-9BB1-826F6E53C246">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 13:52:28 UTC</createdTime>
 <commentInRDBMS><![CDATA[LGA Service Contact's name ]]></commentInRDBMS>
@@ -57,7 +57,7 @@
 <dataTypeSize>7</dataTypeSize>
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="phon_no" id="8F921D9D-AF46-4E70-7D8A-25F813FDEC86">
+<Attribute name="lga_phon_no" id="8F921D9D-AF46-4E70-7D8A-25F813FDEC86">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 13:53:39 UTC</createdTime>
 <commentInRDBMS><![CDATA[ LGA's contact phone number]]></commentInRDBMS>
@@ -71,7 +71,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="size" id="CF216F60-AD68-3CFB-260D-B8C844DC6DEA">
+<Attribute name="lga_size" id="CF216F60-AD68-3CFB-260D-B8C844DC6DEA">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-15 13:54:41 UTC</createdTime>
 <commentInRDBMS><![CDATA[Size of the city (in hectares)]]></commentInRDBMS>

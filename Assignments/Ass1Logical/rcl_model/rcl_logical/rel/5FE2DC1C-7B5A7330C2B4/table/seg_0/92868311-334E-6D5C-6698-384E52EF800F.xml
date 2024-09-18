@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3B44CB9-A649-D5A9-6DF4-7E1E4F4AAD4B" name="AUTHOR_DETAILS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92868311-334E-6D5C-6698-384E52EF800F" name="AUTHOR_DETAILS">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>D9F633F9-6936-9540-26B7-BC6F4543C197</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="author_fname" id="3206EE6F-81D3-11F5-2826-162D511EA1AD">
+<Column name="author_fname" id="4CC5C28C-35BB-E083-D810-1300D7A97508">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[author's first name]]></commentInRDBMS>
 <generatorID>00473D31-C3C3-4C88-BED2-2BE1FF505FEC</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -22,9 +22,9 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="author_lname" id="0FAB7A80-DF72-9A09-B940-5FA9C1948522">
+<Column name="author_lname" id="1D242849-00EB-F323-46CA-18D489417C2D">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[author's last name]]></commentInRDBMS>
 <generatorID>02030C05-F298-E0C4-A3E6-F5BAE4F499E6</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -36,9 +36,9 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="author_id" id="C6293899-3AFE-8966-187B-E5F927341177">
+<Column name="author_id" id="4053125C-8649-D32E-646C-DBDBAB166AEA">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[author id]]></commentInRDBMS>
 <generatorID>D8A29A59-5F02-EE5B-FA85-90E7E677EA18</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -50,20 +50,20 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FF6EBA70-F4E3-1835-E81A-64CBD8E8FB71" referredColumn="7982F2CF-B02B-5DE4-4C6A-A649AEB345B3"/>
+<colAssociation fkAssociation="D47E5E94-76D8-847F-CFAC-BC94C06CA6AF" referredColumn="DEB12764-D0C3-642A-0D6A-AF7B14B244FF"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1A8645F4-47E1-07E2-7085-32699389DEE2" name="author_authordetails_fk">
+<ind_PK_UK id="F8FA6DAC-370C-F990-0B8E-47E3C7CFA716" name="author_authordetails_fk">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>3B8AF3F9-CF8B-1A49-6C37-3EE8E93B5D35</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C6293899-3AFE-8966-187B-E5F927341177"/>
+<colUsage columnID="4053125C-8649-D32E-646C-DBDBAB166AEA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="502237E6-0981-BFD0-9E81-D9D32E4661C9" name="MANAGER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21A3B4A0-2CB4-22E4-80A8-DD35F11860A6" name="MANAGER">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>4B8DDE25-4003-67D3-88A9-DB3AC458D53E</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="man_id" id="86BEC13E-9844-3A88-FCAA-8F9727671852">
+<Column name="man_id" id="F35371F2-64B8-2B9A-D339-B290487A974C">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Manager id]]></commentInRDBMS>
 <generatorID>847DEEAF-9E41-8BC1-FBB4-D473D8FA82B3</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="man_fname" id="C1E29596-AAF3-B10C-EB4E-304158B25BDA">
+<Column name="man_fname" id="A5E6BB7B-297E-C298-42C6-DFBC77CAC588">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Manager First name]]></commentInRDBMS>
 <generatorID>C665F82D-A6E1-9CA1-2EB6-65A3D8F5B79F</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="man_lname" id="0889250F-33FF-0E5C-27AA-8D10CFE6F1FF">
+<Column name="man_lname" id="BC716C1F-7AA1-FCA5-CE4C-FD862F3D2310">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Manager Last name]]></commentInRDBMS>
 <generatorID>A2851AC9-F8AD-0501-EA6A-8AE4F8D439A8</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -47,9 +47,9 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="man_phone" id="DA761196-BD96-E551-3124-0E6C2DF5B242">
+<Column name="man_phone" id="5FF55D1E-1FAC-C191-662A-76E0B6E6BEEC">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Manager Phone Number]]></commentInRDBMS>
 <generatorID>1AEAC53A-00CD-A48C-118B-6406090202BE</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -60,9 +60,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bran_code" id="A61A1613-5601-9685-B6BC-A63DAD7D94B8">
+<Column name="bran_code" id="6D57A0D2-B905-19A3-CCD1-701FFA328D33">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
 <generatorID>23B48CED-7637-B56B-ECE8-7355469E8B3F</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -74,43 +74,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B7F802A1-866D-4A37-EFCB-95BD8B250E40" referredColumn="A21AAB0B-D72D-1E6F-EC8B-0496BA41DD9B"/>
+<colAssociation fkAssociation="92A311DA-4780-DA9D-82CD-AC1700AD889A" referredColumn="B760FDE1-E459-2D95-DB9D-73DBE1C1EB51"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="372C5C88-D884-AC7A-6BB5-29128A7C50F7" name="MANAGER_PK">
+<ind_PK_UK id="503BBDCC-E055-E9C5-6460-AE2A3CF927B9" name="MANAGER_PK">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>50A0F98E-3312-BBB5-5E69-BD661E4143C0</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="86BEC13E-9844-3A88-FCAA-8F9727671852"/>
+<colUsage columnID="F35371F2-64B8-2B9A-D339-B290487A974C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D2AB3678-BDC5-24ED-813E-18E18997F303" name="MANAGER__IDX">
+<ind_PK_UK id="E22E198D-5296-785C-ED65-98176CEADACD" name="MANAGER__IDX">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>078888E9-9951-86C3-9F35-F1A28BB86430</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="A61A1613-5601-9685-B6BC-A63DAD7D94B8"/>
+<colUsage columnID="6D57A0D2-B905-19A3-CCD1-701FFA328D33"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="309719B6-1B21-03E9-30F7-BF1160238855" name="manager_branch_fkv2">
+<ind_PK_UK id="00FBB0CA-701C-B894-84D9-164D9593F9A1" name="manager_branch_fkv2">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>078888E9-9951-86C3-9F35-F1A28BB86430</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A61A1613-5601-9685-B6BC-A63DAD7D94B8"/>
+<colUsage columnID="6D57A0D2-B905-19A3-CCD1-701FFA328D33"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

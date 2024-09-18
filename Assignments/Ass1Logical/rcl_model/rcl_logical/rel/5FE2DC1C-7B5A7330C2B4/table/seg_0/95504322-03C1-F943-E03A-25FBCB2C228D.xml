@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B30E423D-06FE-D60D-D9DB-C3CB12AD9E21" name="LGA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95504322-03C1-F943-E03A-25FBCB2C228D" name="LGA">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>1A4F074F-112F-F093-238E-111A95D09811</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="lga_code" id="EC41C3E3-BFF1-B4A0-75DD-71317B47CE2D">
+<Column name="lga_code" id="8CA37203-2761-DCF8-CE87-6EB1EFC26045">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[LGA code]]></commentInRDBMS>
 <generatorID>B51CA8B6-2DC9-2359-56BC-01084CF32A52</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="lga_name" id="097DAAE8-92D1-33F2-721B-4FEE144E355F">
+<Column name="lga_name" id="E87DE77F-D724-2D11-20C6-2E7AF06F34CC">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[LGA name]]></commentInRDBMS>
 <generatorID>91581AA2-D002-9275-2DE4-FA9152CC4961</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cont_nam" id="C453F69F-B4AD-47DF-8CA4-44F163803AED">
+<Column name="lga_cont_nam" id="8E3A9693-2431-A552-CB3A-F4825BA385B6">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[LGA Service Contact's name ]]></commentInRDBMS>
 <generatorID>382F5898-4816-140F-9BB1-826F6E53C246</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -47,9 +47,9 @@
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="phon_no" id="D2FF3C38-A298-9D8D-2E7A-44C1B7137EDA">
+<Column name="lga_phon_no" id="AE441CE9-9C07-3B78-FB1E-60D5DBE78A88">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[ LGA's contact phone number]]></commentInRDBMS>
 <generatorID>8F921D9D-AF46-4E70-7D8A-25F813FDEC86</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -60,9 +60,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="size" id="C90EA5A6-F965-8E2E-B356-79A733322379">
+<Column name="lga_size" id="8DB4E694-2844-2538-B7C0-FF56ADF090A9">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Size of the city (in hectares)]]></commentInRDBMS>
 <generatorID>CF216F60-AD68-3CFB-260D-B8C844DC6DEA</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -75,16 +75,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="20E620E8-C121-D128-F10C-396D90EEA491" name="LGA_PK">
+<ind_PK_UK id="3E1720B7-19A0-DFFB-94C5-BA2E7200CB24" name="LGA_PK">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>D386535F-7BA9-D4F2-CE47-06B5AB0BC701</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EC41C3E3-BFF1-B4A0-75DD-71317B47CE2D"/>
+<colUsage columnID="8CA37203-2761-DCF8-CE87-6EB1EFC26045"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

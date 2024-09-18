@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28737931-03FD-D577-5B45-29BC2A57E90D" name="SUBJECT_DETAILS">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-18 02:25:36 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="catal_call_no" id="F62D2710-DBC7-0AB8-CE8E-3B0EB31821D4">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-18 02:28:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dewey Decimal call number]]></commentInRDBMS>
+<generatorID>E1716492-CBE7-6F4C-CE2E-E2396E89E5D2</generatorID>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<referedAttribute>D0C312E1-7F6A-4A2B-A161-E10B356546D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sub_id" id="C1B0BC91-9861-8E9E-2DFB-6FC7431A1E5A">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-18 02:31:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[subject id]]></commentInRDBMS>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEBF0F73-47E6-56CD-CCF6-EA4399674BB4" name="SUBJECT_DETAILS PK">
+<createdBy>anbua</createdBy>
+<createdTime>2024-09-18 02:31:58 UTC</createdTime>
+<ownerDesignName>rcl_logical</ownerDesignName>
+<engineerTo>
+<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1B0BC91-9861-8E9E-2DFB-6FC7431A1E5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

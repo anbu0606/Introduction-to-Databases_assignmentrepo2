@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACF25B8A-D6B4-E0B6-2D11-54278B0C9432" name="Borrower">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3F91E1B-6AD0-638A-8EAF-5495432DC1B5" name="Borrower">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>FB26BFD9-E10B-388C-7527-BFD7A927541D</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="borrowr_no" id="BF57175D-017B-18C6-17A8-D86AB3404C06">
+<Column name="borrowr_no" id="F20B4289-0090-2A25-C049-05F77C050A24">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Borrower number]]></commentInRDBMS>
 <generatorID>C7D01838-5578-2ED6-605A-AC214963205F</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bor_fname" id="2716038B-AB28-DC21-26EC-B790A5236F3E">
+<Column name="bor_fname" id="E7F4201A-41D3-4679-DA60-5D784C5959F7">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Borrower First name]]></commentInRDBMS>
 <generatorID>E0DC8512-924D-BD95-A90E-3B219EE94034</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bor_lname" id="E1136051-6408-D16B-29FB-7536D2AA836F">
+<Column name="bor_lname" id="C4FFC4FB-21ED-45D0-1726-E5033E9DCD75">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Borrower Last Name]]></commentInRDBMS>
 <generatorID>D1703266-FF81-BABD-C493-48F7D260F208</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -47,9 +47,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bor_addr" id="297818CA-711B-032F-69B9-980E2F4F4CB3">
+<Column name="bor_addr" id="31A86492-E760-7DFB-6296-A5E1E54169AE">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Borrower Address]]></commentInRDBMS>
 <generatorID>93859D30-BB09-8AD8-AC77-7247A0C67AE2</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -60,9 +60,9 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="borrowr_class" id="D7F2E880-34FF-50EA-66DA-D2C3CBCB30C4">
+<Column name="borrowr_class" id="DE33F983-D85E-41E4-EE6B-C9AA00000E15">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[age group of the borrower]]></commentInRDBMS>
 <generatorID>F74EF3CC-345D-AF33-B81D-E8213EC3A625</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -73,9 +73,9 @@
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="borrowr_stat_permit" id="D33C3568-5D71-3659-11AB-568A0D2637B1">
+<Column name="borrowr_stat_permit" id="49454098-EEE7-C352-C9B7-9814DEFA0F6E">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[permitted status of the borrower]]></commentInRDBMS>
 <generatorID>A7EA84A4-420B-CCF1-8159-D4CFF8D349A8</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -86,9 +86,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="borrowr_stat_ban" id="6E91FF8E-5728-930D-0302-97A04899686C">
+<Column name="borrowr_stat_ban" id="6929AF0A-FFD9-092F-678F-F655EDB5EDA3">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[banned status of the borrower]]></commentInRDBMS>
 <generatorID>DDD4B3B1-3CAA-FDF7-0DB7-D5365EF7F0A1</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -99,9 +99,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bran_code" id="14254C6D-1FF3-1D1B-3955-90A29ADD4397">
+<Column name="bran_code" id="43B7A3C5-FC95-6191-5927-E1E28A997F4F">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Branch Code]]></commentInRDBMS>
 <generatorID>7B563004-44E1-8D4F-C544-60675632AF3D</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -113,32 +113,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="90DB4C81-9923-2FF9-96AD-68E762F7D458" referredColumn="A21AAB0B-D72D-1E6F-EC8B-0496BA41DD9B"/>
+<colAssociation fkAssociation="D13A17E6-5336-4AC4-B5E0-0FC331B07087" referredColumn="B760FDE1-E459-2D95-DB9D-73DBE1C1EB51"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D9D31EF6-05F4-9E04-0E65-DDBB9493439B" name="Borrower_PK">
+<ind_PK_UK id="8BF9A519-8B19-0B04-AA30-4454BA69ADDE" name="Borrower_PK">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>55D0ED9B-D360-33C5-AA73-311B2C2E91C2</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BF57175D-017B-18C6-17A8-D86AB3404C06"/>
+<colUsage columnID="F20B4289-0090-2A25-C049-05F77C050A24"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="64C0D257-6A8F-8ECD-D2FD-E5EEFDF1C740" name="branch_borrower_fk">
+<ind_PK_UK id="A6859822-05B3-BCAE-793A-ED3C6F7CC41D" name="branch_borrower_fk">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>925F4261-E704-CA2D-BD0F-4D3C1EF6ADAB</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="14254C6D-1FF3-1D1B-3955-90A29ADD4397"/>
+<colUsage columnID="43B7A3C5-FC95-6191-5927-E1E28A997F4F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

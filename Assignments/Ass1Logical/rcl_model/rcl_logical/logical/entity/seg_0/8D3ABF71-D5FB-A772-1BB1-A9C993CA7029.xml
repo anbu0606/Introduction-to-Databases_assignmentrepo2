@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="sub_id" id="D82B2D72-7EAA-BE18-F424-7F4FA79F616A">
-<createdBy>anbua</createdBy>
-<createdTime>2024-09-17 11:59:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[Subject id]]></commentInRDBMS>
-<ownerDesignName>rcl_logical</ownerDesignName>
-<engineerTo>
-<item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="sub_desc" id="7B1F4308-F250-68D6-CB7A-DAA1153FBBE1">
 <createdBy>anbua</createdBy>
 <createdTime>2024-09-17 11:59:27 UTC</createdTime>
@@ -43,20 +29,20 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="catal_call_no" id="6DAFE35F-C769-AF0F-3BD7-B2AE543B29AC">
+<Attribute name="sub_id" id="ACF38835-6F36-7643-BE23-2E8B64E2E7D9">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 13:06:25 UTC</createdTime>
-<commentInRDBMS><![CDATA[Dewey Decimal call number]]></commentInRDBMS>
-<generatorID>B958E0C4-0A64-9526-A1F2-9E1FE07B3F1C</generatorID>
+<createdTime>2024-09-18 02:31:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[subject id]]></commentInRDBMS>
+<generatorID>72AE76AA-F89A-731E-E8C4-1343D2D5EBD0</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <engineerTo>
 <item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
 </engineerTo>
-<referedAttribute>D0C312E1-7F6A-4A2B-A161-E10B356546D7</referedAttribute>
+<referedAttribute>C1B0BC91-9861-8E9E-2DFB-6FC7431A1E5A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>24</dataTypeSize>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -69,9 +55,6 @@
 <item key="5FE2DC1C-58CE-611F-4755-7B5A7330C2B4" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>D82B2D72-7EAA-BE18-F424-7F4FA79F616A</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

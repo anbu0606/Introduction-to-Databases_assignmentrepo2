@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="013EE031-16DD-7A0A-02B9-A38965BBF044" name="IDENTIFIER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B10073B-29FC-A571-AFD3-8CE215504A9E" name="IDENTIFIER">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>1744EB44-2F97-CAC4-5609-EE94E1486FB2</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="isbn" id="EB00B709-0A87-7FD5-ABE8-C8B7B8E42636">
+<Column name="isbn" id="4E21C5DD-36DF-A158-D8BC-EF3D8D3E2974">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Each book has single ISBN]]></commentInRDBMS>
 <generatorID>F8E29840-62FD-F3E2-4C97-00BFE3444D23</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,14,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="is_type" id="939C61F7-010E-EDBF-7DB4-CA2239B0F57C">
+<Column name="is_type" id="8E16FA30-DDFE-D18B-E5CA-3DD4A1DD2789">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Type of the book cover]]></commentInRDBMS>
 <generatorID>712B7D53-18BE-48C3-B1B8-23A9E4C28CF5</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catal_call_no" id="E443171E-5805-C624-BF82-03FDC8C7E2DF">
+<Column name="catal_call_no" id="CA759E23-0A21-4C1D-FFC0-536D72E4CD5D">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Dewey Decimal call number]]></commentInRDBMS>
 <generatorID>421B3030-14DB-C9ED-4641-343CD7E4B8F9</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
@@ -48,32 +48,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CC9246D9-FAE3-79EE-D30B-CFA29AF34E3C" referredColumn="DD38CFDC-CB50-6B8F-AAE9-BD1A82A26323"/>
+<colAssociation fkAssociation="160D01FC-E21A-5F00-DEF1-E115BC7ECBF4" referredColumn="8BAAD347-EFBC-6164-767D-BFDE9A9925C3"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="63EE97FD-4E2D-77C9-F0A6-227329A663E2" name="IDENTIFIER_PK">
+<ind_PK_UK id="C9A91C46-CDB1-74DB-C312-80171628EEDD" name="IDENTIFIER_PK">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>BD615DA8-CB53-721D-CD70-C8BA1EA54157</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EB00B709-0A87-7FD5-ABE8-C8B7B8E42636"/>
+<colUsage columnID="4E21C5DD-36DF-A158-D8BC-EF3D8D3E2974"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CEDB60DC-1626-C009-7D68-615141F882D7" name="isbn_catal_fk">
+<ind_PK_UK id="5A677449-41A3-5297-7056-610C7DDB919C" name="isbn_catal_fk">
 <createdBy>anbua</createdBy>
-<createdTime>2024-09-17 15:58:08 UTC</createdTime>
+<createdTime>2024-09-18 02:36:26 UTC</createdTime>
 <generatorID>3BD51402-0DC4-3659-7BEE-E9F0036920C1</generatorID>
 <ownerDesignName>rcl_logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E443171E-5805-C624-BF82-03FDC8C7E2DF"/>
+<colUsage columnID="CA759E23-0A21-4C1D-FFC0-536D72E4CD5D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
